@@ -22,7 +22,7 @@ $ yarn run start:prod
 ```
 
 Once ran, call the POST endpoint with the folowing url [http://localhost:4444/search] and use the following object in the request body:
-```json
+```typescript
 {
     "clinicName": string,
     "state": string, 
